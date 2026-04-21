@@ -46,8 +46,8 @@ export const hero = {
   ctaPrimary: { label: 'Reserve a Room', to: '/reservations' },
   ctaSecondary: { label: 'Tour the HICC', to: '/conferences' },
   images: {
-    main: U('1566073771259-6a8506099945'),
-    detail: U('1582719508461-905c673771fd', 900),
+    main: U('1621293954908-907159247fc8'),
+    detail: U('1590490360182-c33d57733427', 900),
   },
 };
 
@@ -75,7 +75,7 @@ export const rooms = [
     from: 'USD 135',
     size: '28 m²',
     view: 'Courtyard',
-    image: U('1540541338287-41700207dee6', 1200),
+    image: U('1566665797739-1674de7a421a', 1200),
     blurb:
       'Two plush single beds dressed in crisp cotton — made for colleagues on a conference or families stitching a holiday together.',
     amenities: ['Two singles', 'Work desk', 'Smart TV', 'Wi-Fi', 'Tea & coffee set'],
@@ -128,7 +128,7 @@ export const rooms = [
     size: '210 m²',
     view: '360° Harare',
     image: U('1591088398332-8a7791972843', 1200),
-    imageFallback: U('1582719508461-905c673771fd', 1200),
+    imageFallback: U('1567016376408-0226e4d0c1ea', 1200),
     blurb:
       "The hotel's crown suite — a full floor with grand salon, private dining room, two bedrooms and a study. Has hosted presidents, heads of state and touring artists.",
     amenities: ['Full floor', 'Private dining for 10', 'Two bedrooms', 'Study & library', 'Dedicated butler'],
@@ -141,8 +141,8 @@ export const rooms = [
     from: 'USD 175',
     size: '42 m²',
     view: 'Pool courtyard',
-    image: U('1596178065887-1198b6148b2b', 1200),
-    imageFallback: U('1540541338287-41700207dee6', 1200),
+    image: U('1571508601891-ca5e7a713859', 1200),
+    imageFallback: U('1540518614846-7eded433c457', 1200),
     blurb:
       'Interconnected rooms with a queen and two singles, a compact kitchenette and a second bathroom — built for a long school-holiday weekend.',
     amenities: ['Sleeps 4', 'Kitchenette', 'Two bathrooms', 'Pool view', 'Complimentary children breakfast'],
@@ -262,8 +262,8 @@ export const conferences = {
       capacity: 300,
       setup: 'Classroom · U-shape',
       area: '280 m²',
-      image: U('1497366216548-37526070297c', 1200),
-      imageFallback: U('1431540015161-0bf868a2d407', 1200),
+      image: U('1511578314322-379afb476865', 1200),
+      imageFallback: U('1517502884422-41eaead166d4', 1200),
       description:
         'The largest of our eight committee rooms. Built for day-long workshops, board retreats and panel roundtables — with daylight on two sides and an adjoining coffee-break foyer.',
       features: ['Daylight windows', 'U-shape up to 120', 'Dedicated break foyer', 'Dual-screen projection'],
@@ -298,7 +298,7 @@ export const conferences = {
       capacity: 50,
       setup: 'Classroom · Boardroom',
       area: '60 m²',
-      image: U('1497366216548-37526070297c', 1200),
+      image: U('1517502884422-41eaead166d4', 1200),
       imageFallback: U('1431540015161-0bf868a2d407', 1200),
       description:
         'Eight identical syndicate rooms, each with natural light, for conference break-outs of 20 to 50. Configure boardroom, classroom or cocktail. Coffee delivered on the hour.',
@@ -432,26 +432,26 @@ export const events = [
 
 /* ---------- GALLERY ---------- */
 export const gallery = [
-  { src: U('1566073771259-6a8506099945', 1200), cat: 'Exterior', alt: 'Rainbow Towers at dusk' },
-  { src: U('1582719508461-905c673771fd', 1200), cat: 'Lobby', alt: 'Grand lobby' },
-  { src: U('1540541338287-41700207dee6', 1200), cat: 'Rooms', alt: 'Luxury room' },
-  { src: U('1551882547-ff40c63fe5fa', 1200), cat: 'Rooms', alt: 'Suite living area' },
-  { src: U('1571896349842-33c89424de2d', 1200), cat: 'Pool', alt: 'Pool garden' },
-  { src: U('1520250497591-112f2f40a3f4', 1200), cat: 'Exterior', alt: 'Hotel exterior' },
-  { src: U('1590490360182-c33d57733427', 1200), cat: 'Rooms', alt: 'Diplomatic suite' },
+  { src: U('1621293954908-907159247fc8', 1200), cat: 'Exterior', alt: 'Rainbow Towers at dusk' },
+  { src: U('1590490360182-c33d57733427', 1200), cat: 'Lobby', alt: 'Grand lobby' },
+  { src: U('1566665797739-1674de7a421a', 1200), cat: 'Rooms', alt: 'Luxury room' },
+  { src: U('1567016376408-0226e4d0c1ea', 1200), cat: 'Rooms', alt: 'Suite living area' },
+  { src: U('1535827841776-24afc1e255ac', 1200), cat: 'Pool', alt: 'Pool garden' },
+  { src: U('1455587734955-081b22074882', 1200), cat: 'Exterior', alt: 'Hotel exterior' },
+  { src: U('1591088398332-8a7791972843', 1200), cat: 'Rooms', alt: 'Diplomatic suite' },
   { src: U('1519741497674-611481863552', 1200), cat: 'Conferences', alt: 'Wedding setup' },
   { src: U('1414235077428-338989a2e8c0', 1200), cat: 'Dining', alt: 'Harvest Garden' },
   { src: U('1554118811-1e0d58224f24', 1200), cat: 'Dining', alt: 'Patisserie' },
   { src: U('1517248135467-4c7edcad34c4', 1200), cat: 'Conferences', alt: 'Cocktail reception' },
-  { src: U('1445019980597-93fa8acb246c', 1200), cat: 'Dining', alt: 'Fine dining plate' },
-  { src: U('1559339352-11d035aa65de', 1200), cat: 'Spa', alt: 'Spa treatment room' },
+  { src: U('1600891964092-4316c288032e', 1200), cat: 'Dining', alt: 'Fine dining plate' },
+  { src: U('1540555700478-4be289fbecef', 1200), cat: 'Spa', alt: 'Spa treatment room' },
   { src: U('1467003909585-2f8a72700288', 1200), cat: 'Conferences', alt: 'Gala dinner' },
-  { src: U('1519671482749-fd09be7ccebf', 1200), cat: 'Conferences', alt: 'Banquet' },
-  { src: U('1559329007-40df8a9345d8', 1200), cat: 'Pool', alt: 'Pool loungers' },
+  { src: U('1464366400600-7168b8af9bc3', 1200), cat: 'Conferences', alt: 'Banquet' },
+  { src: U('1610641818989-c2051b5e2cfd', 1200), cat: 'Pool', alt: 'Pool loungers' },
   { src: U('1540575467063-178a50c2df87', 1200), cat: 'Conferences', alt: 'Jacaranda hall' },
-  { src: U('1568495248636-6432b97bd949', 1200), cat: 'Dining', alt: 'Wine dinner' },
-  { src: U('1542353436-312f0e1f67ff', 1200), cat: 'Dining', alt: 'Cocktail bar' },
-  { src: U('1600585154340-be6161a56a0c', 1200), cat: 'Exterior', alt: 'Harare skyline' },
+  { src: U('1510812431401-41d2bd2722f3', 1200), cat: 'Dining', alt: 'Wine dinner' },
+  { src: U('1514933651103-005eec06c04b', 1200), cat: 'Dining', alt: 'Cocktail bar' },
+  { src: U('1570172619644-dfd03ed5d881', 1200), cat: 'Spa', alt: 'Spa facial' },
 ];
 
 export const galleryCategories = [
@@ -481,8 +481,8 @@ export const story = {
     { value: '104m', label: 'Tower height' },
     { value: '4,500', label: 'Auditorium seats' },
   ],
-  image: U('1520250497591-112f2f40a3f4', 1200),
-  accentImage: U('1551882547-ff40c63fe5fa', 900),
+  image: U('1621293954908-907159247fc8', 1200),
+  accentImage: U('1567016376408-0226e4d0c1ea', 900),
 };
 
 /* ---------- CTA ---------- */
@@ -490,5 +490,5 @@ export const homeCta = {
   eyebrow: 'plan your stay',
   headline: 'An address the capital keeps coming back to.',
   sub: 'Reserve a suite, book the ballroom, or simply join us for Sunday brunch under the jacarandas.',
-  image: U('1566073771259-6a8506099945', 1800),
+  image: U('1519671482749-fd09be7ccebf', 1800),
 };
